@@ -92,7 +92,6 @@ function App() {
     <SectionLeft className="left-section">
     <Header>Letter Generator</Header>
         <Subheader>Enter your text below:</Subheader>
-        {/* <Input onChange={(e)=>setInput(e.target.value)} onKeyDown={(e)=>pressKey(e.key)} type="text" placeholder="Type your text here" /> */}
         <div class="form-group form-ripple">
           <small class="form-text">Describe your letter.</small>
         </div>
@@ -119,6 +118,7 @@ function App() {
 const RightContent = styled.div`
   flex: 1;
   padding: 20px;
+  
 `;
 
 const RightParagraph = styled.p`
